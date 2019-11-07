@@ -1,0 +1,33 @@
+n = int(input())
+while n >= 1000:
+    print('M', end='')
+    n -= 1000
+if n >= 900:
+    print('CM', end='')
+    n -= 900
+if n >= 500:
+    print('D', end='')
+    n -= 500
+while n >= 100:
+    print('C', end='')
+    n -= 100
+if n >= 90:
+    print('XC', end='')
+    n -= 90
+if n >= 50:
+    print('L', end='')
+    n -= 50
+while n >= 10:
+    print('X', end='')
+    n -= 10
+if n >= 9:
+    print('IX', end='')
+    n -= 9
+if n >= 5:
+    print('V', end='')
+    n -= 5
+while n >= 1:
+    print('I', end='')
+    n -= 1
+
+

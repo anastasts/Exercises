@@ -1,0 +1,7 @@
+Alice Ted 
+Ted Jin 
+Bob P1 
+P1 P2 
+P2 Ted 
+Alpha Red 
+Red Bob
